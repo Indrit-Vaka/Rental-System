@@ -60,7 +60,7 @@ Partial Class frmPay
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(337, 56)
         Me.Button1.TabIndex = 27
-        Me.Button1.Text = "ACCEPT PAYMENT"
+        Me.Button1.Text = "PRANO PAGESEN"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Label1
@@ -71,7 +71,7 @@ Partial Class frmPay
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(183, 31)
         Me.Label1.TabIndex = 28
-        Me.Label1.Text = "Transaction No :"
+        Me.Label1.Text = "Transaksioni nr :"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblTransNo
@@ -83,7 +83,7 @@ Partial Class frmPay
         Me.lblTransNo.Name = "lblTransNo"
         Me.lblTransNo.Size = New System.Drawing.Size(406, 31)
         Me.lblTransNo.TabIndex = 29
-        Me.lblTransNo.Text = "Transaction No"
+        Me.lblTransNo.Text = "Transaksioni nro"
         Me.lblTransNo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'lblName
@@ -95,7 +95,7 @@ Partial Class frmPay
         Me.lblName.Name = "lblName"
         Me.lblName.Size = New System.Drawing.Size(406, 24)
         Me.lblName.TabIndex = 31
-        Me.lblName.Text = "Name"
+        Me.lblName.Text = "Emri"
         Me.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'Label3
@@ -106,7 +106,7 @@ Partial Class frmPay
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(183, 31)
         Me.Label3.TabIndex = 30
-        Me.Label3.Text = "Customer Name :"
+        Me.Label3.Text = "Emri klientit :"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblCount
@@ -129,7 +129,7 @@ Partial Class frmPay
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(185, 25)
         Me.Label4.TabIndex = 32
-        Me.Label4.Text = "No. of rented motor(s) :"
+        Me.Label4.Text = "Nr i automjeteve te marra me qira :"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblTotal
@@ -154,7 +154,7 @@ Partial Class frmPay
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(73, 35)
         Me.Label5.TabIndex = 34
-        Me.Label5.Text = "Total"
+        Me.Label5.Text = "Totali"
         '
         'Label2
         '
@@ -165,7 +165,7 @@ Partial Class frmPay
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(70, 35)
         Me.Label2.TabIndex = 36
-        Me.Label2.Text = "Cash"
+        Me.Label2.Text = "Vlera"
         '
         'lblChange
         '
@@ -189,7 +189,7 @@ Partial Class frmPay
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(101, 35)
         Me.Label7.TabIndex = 37
-        Me.Label7.Text = "Change"
+        Me.Label7.Text = "Kusuri"
         '
         'Panel1
         '
@@ -209,7 +209,7 @@ Partial Class frmPay
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(77, 21)
         Me.Label14.TabIndex = 40
-        Me.Label14.Text = "PAYMENT"
+        Me.Label14.Text = "PAGESA"
         '
         'Label6
         '
@@ -221,7 +221,7 @@ Partial Class frmPay
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(65, 21)
         Me.Label6.TabIndex = 41
-        Me.Label6.Text = "[ Close ]"
+        Me.Label6.Text = "[ Mbyll ]"
         '
         'frmPay
         '

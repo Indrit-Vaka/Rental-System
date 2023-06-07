@@ -28,16 +28,16 @@ Public Class frmPay
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
         If CDbl(txtCash.Text) < CDbl(lblTotal.Text) Then
-            MsgBox("Insuffecient cash.", vbExclamation)
+            MsgBox("Para te pamjaftueshme.", vbExclamation)
             Return
         Else
-            If MsgBox("Accept Payment?", vbYesNo + vbQuestion) = vbYes Then
+            If MsgBox("Prano pagesen?", vbYesNo + vbQuestion) = vbYes Then
                 Dim sdate As String = Now.Date.ToString("yyyy-MM-dd")
                 cn.Open()
                 cm = New MySqlCommand("insert into tblpayment(transno, name, cash, sdate) values('" & lblTransNo.Text & "','" & lblName.Text & "','" & CDbl(txtCash.Text) & "','" & sdate & "')", cn)
                 cm.ExecuteNonQuery()
                 cn.Close()
-                MsgBox("Payment successfully saved.", vbInformation)
+                MsgBox("Pagesa u ruajt me sukses.", vbInformation)
 
                 txtCash.Text = "0"
                 lblTotal.Text = "0"

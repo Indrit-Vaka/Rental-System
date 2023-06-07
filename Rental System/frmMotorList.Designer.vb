@@ -60,7 +60,7 @@ Partial Class frmMotorList
         Me.btnNew.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnNew.Name = "btnNew"
         Me.btnNew.Size = New System.Drawing.Size(67, 28)
-        Me.btnNew.Text = "New"
+        Me.btnNew.Text = "Shto"
         '
         'btnEdit
         '
@@ -68,7 +68,7 @@ Partial Class frmMotorList
         Me.btnEdit.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnEdit.Name = "btnEdit"
         Me.btnEdit.Size = New System.Drawing.Size(63, 28)
-        Me.btnEdit.Text = "Edit"
+        Me.btnEdit.Text = "Modifiko"
         '
         'btnDelete
         '
@@ -76,7 +76,7 @@ Partial Class frmMotorList
         Me.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(81, 28)
-        Me.btnDelete.Text = "Delete"
+        Me.btnDelete.Text = "Fshi"
         '
         'StatusStrip1
         '
@@ -98,7 +98,7 @@ Partial Class frmMotorList
         '
         Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
         Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(111, 20)
-        Me.ToolStripStatusLabel2.Text = "record(s) found"
+        Me.ToolStripStatusLabel2.Text = "te dhena te gjetura"
         '
         'DataGridView1
         '
@@ -127,37 +127,37 @@ Partial Class frmMotorList
         '
         'Column1
         '
-        Me.Column1.HeaderText = "Plate"
+        Me.Column1.HeaderText = "Targa"
         Me.Column1.Name = "Column1"
         Me.Column1.Width = 150
         '
         'Column2
         '
         Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column2.HeaderText = "Brand"
+        Me.Column2.HeaderText = "Marka"
         Me.Column2.Name = "Column2"
         '
         'Column3
         '
-        Me.Column3.HeaderText = "Model"
+        Me.Column3.HeaderText = "Modeli"
         Me.Column3.Name = "Column3"
         Me.Column3.Width = 150
         '
         'Column4
         '
-        Me.Column4.HeaderText = "Color"
+        Me.Column4.HeaderText = "Ngjyra"
         Me.Column4.Name = "Column4"
         Me.Column4.Width = 150
         '
         'Column5
         '
-        Me.Column5.HeaderText = "Rental Amount"
+        Me.Column5.HeaderText = "Vlera qira ditore"
         Me.Column5.Name = "Column5"
         Me.Column5.Width = 150
         '
         'Column6
         '
-        Me.Column6.HeaderText = "Status"
+        Me.Column6.HeaderText = "Statusi"
         Me.Column6.Name = "Column6"
         Me.Column6.Width = 150
         '
@@ -168,7 +168,7 @@ Partial Class frmMotorList
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(73, 28)
-        Me.ToolStripButton1.Text = "Close"
+        Me.ToolStripButton1.Text = "Mbyll"
         '
         'frmMotorList
         '

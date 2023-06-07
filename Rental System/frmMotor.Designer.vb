@@ -48,7 +48,7 @@ Partial Class frmMotor
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(69, 21)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Plate No"
+        Me.Label1.Text = "Targa"
         '
         'txtPlate
         '
@@ -66,7 +66,7 @@ Partial Class frmMotor
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(51, 21)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Brand"
+        Me.Label2.Text = "Marka"
         '
         'cboBrand
         '
@@ -92,7 +92,7 @@ Partial Class frmMotor
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(55, 21)
         Me.Label3.TabIndex = 4
-        Me.Label3.Text = "Model"
+        Me.Label3.Text = "Modeli"
         '
         'txtColor
         '
@@ -110,7 +110,7 @@ Partial Class frmMotor
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(47, 21)
         Me.Label5.TabIndex = 8
-        Me.Label5.Text = "Color"
+        Me.Label5.Text = "Ngjyra"
         '
         'txtRental
         '
@@ -127,7 +127,7 @@ Partial Class frmMotor
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(115, 21)
         Me.Label4.TabIndex = 10
-        Me.Label4.Text = "Rental Amount"
+        Me.Label4.Text = "Vlera qira ditore"
         '
         'btnSave
         '
@@ -139,7 +139,7 @@ Partial Class frmMotor
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(94, 31)
         Me.btnSave.TabIndex = 12
-        Me.btnSave.Text = "Save"
+        Me.btnSave.Text = "Ruaj"
         Me.btnSave.UseVisualStyleBackColor = False
         '
         'btnUpdate
@@ -152,7 +152,7 @@ Partial Class frmMotor
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(94, 31)
         Me.btnUpdate.TabIndex = 13
-        Me.btnUpdate.Text = "Update"
+        Me.btnUpdate.Text = "Rifresko"
         Me.btnUpdate.UseVisualStyleBackColor = False
         '
         'Button3
@@ -165,7 +165,7 @@ Partial Class frmMotor
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(94, 31)
         Me.Button3.TabIndex = 14
-        Me.Button3.Text = "Cancel"
+        Me.Button3.Text = "Anulo"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Panel1
@@ -187,7 +187,7 @@ Partial Class frmMotor
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(65, 21)
         Me.Label7.TabIndex = 45
-        Me.Label7.Text = "[ Close ]"
+        Me.Label7.Text = "[ Mbyll ]"
         '
         'Label14
         '
@@ -198,7 +198,7 @@ Partial Class frmMotor
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(152, 21)
         Me.Label14.TabIndex = 44
-        Me.Label14.Text = "MOTORCYCLE ENTRY"
+        Me.Label14.Text = "Njesi Automjeti"
         '
         'frmMotor
         '

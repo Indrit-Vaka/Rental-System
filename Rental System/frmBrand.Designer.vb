@@ -57,7 +57,7 @@ Partial Class frmBrand
         '
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
         Me.ToolStripLabel1.Size = New System.Drawing.Size(51, 28)
-        Me.ToolStripLabel1.Text = "Brand"
+        Me.ToolStripLabel1.Text = "Marka"
         '
         'txtBrand
         '
@@ -71,7 +71,7 @@ Partial Class frmBrand
         Me.btnSave.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(69, 28)
-        Me.btnSave.Text = "New"
+        Me.btnSave.Text = "Shto"
         '
         'ToolStripSeparator1
         '
@@ -84,7 +84,7 @@ Partial Class frmBrand
         Me.btnUpdate.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(89, 28)
-        Me.btnUpdate.Text = "Update"
+        Me.btnUpdate.Text = "Rifresko"
         '
         'ToolStripSeparator2
         '
@@ -97,7 +97,7 @@ Partial Class frmBrand
         Me.btnDelete.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(82, 28)
-        Me.btnDelete.Text = "Delete"
+        Me.btnDelete.Text = "Fshi"
         '
         'ToolStripSeparator3
         '
@@ -110,7 +110,7 @@ Partial Class frmBrand
         Me.btnCancel.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(83, 28)
-        Me.btnCancel.Text = "Cancel"
+        Me.btnCancel.Text = "Anulo"
         '
         'DataGridView1
         '
@@ -146,7 +146,7 @@ Partial Class frmBrand
         'Column1
         '
         Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column1.HeaderText = "Brand"
+        Me.Column1.HeaderText = "Marka"
         Me.Column1.Name = "Column1"
         '
         'ToolStripButton1
@@ -156,7 +156,7 @@ Partial Class frmBrand
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(75, 28)
-        Me.ToolStripButton1.Text = "Close"
+        Me.ToolStripButton1.Text = "Mbyll"
         '
         'frmBrand
         '
