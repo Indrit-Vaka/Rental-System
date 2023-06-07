@@ -23,11 +23,14 @@ Public Class frmPay
         Catch ex As Exception
             lblChange.Text = "0.00"
         End Try
-       
+
     End Sub
 
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
-        If CDbl(txtCash.Text) < CDbl(lblTotal.Text) Then
+        If String.IsNullOrEmpty(txtCash.Text) Then
+            MsgBox("Insuffecient cash.", vbExclamation)
+            Return
+        ElseIf txtCash.Text < CDbl(lblTotal.Text) Then
             MsgBox("Insuffecient cash.", vbExclamation)
             Return
         Else

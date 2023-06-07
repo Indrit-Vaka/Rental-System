@@ -112,9 +112,10 @@ Public Class frmRental
             If IS_EMPTY(txtPlateNo) = True Then Return
             Dim sdate1 As String = Now.Date.ToString("yyyy-MM-dd")
             Dim sdate2 As String = DateTimePicker1.Value.ToString("yyyy-MM-dd")
+            Dim total As Double = txtTotal.Text
             If MsgBox("Add to rent this motor?", vbYesNo + vbQuestion) = vbYes Then
                 cn.Open()
-                cm = New MySqlCommand("insert into tblrent (transno, cid, plateno, dborrowed, dreturned, rental, noofdays, rentalpay, remarks) values ('" & lblTrans.Text & "','" & txtID.Text & "','" & txtPlate.Text & "','" & sdate1 & "','" & sdate2 & "','" & txtRate.Text & "','" & lblDay.Text & "','" & txtTotal.Text & "','" & txtRemarks.Text & "')", cn)
+                cm = New MySqlCommand("insert into tblrent (transno, cid, plateno, dborrowed, dreturned, rental, noofdays, rentalpay, remarks) values ('" & lblTrans.Text & "','" & txtID.Text & "','" & txtPlate.Text & "','" & sdate1 & "','" & sdate2 & "','" & txtRate.Text & "','" & lblDay.Text & "','" & total & "','" & txtRemarks.Text & "')", cn)
                 cm.ExecuteNonQuery()
 
                 MsgBox("Record has been successfully added.", vbInformation)
