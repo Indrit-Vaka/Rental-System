@@ -154,10 +154,12 @@
     </Compile>
     <Compile Include="frmMain.vb">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="frmMain.Designer.vb">
       <DependentUpon>frmMain.vb</DependentUpon>
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="frmMotor.Designer.vb">
       <DependentUpon>frmMotor.vb</DependentUpon>
@@ -231,6 +233,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMotor.resx">
       <DependentUpon>frmMotor.vb</DependentUpon>
