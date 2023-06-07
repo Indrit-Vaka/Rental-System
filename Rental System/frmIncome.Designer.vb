@@ -69,7 +69,7 @@ Partial Class frmIncome
         Me.btnGenerate.Name = "btnGenerate"
         Me.btnGenerate.Size = New System.Drawing.Size(154, 31)
         Me.btnGenerate.TabIndex = 28
-        Me.btnGenerate.Text = "Generate"
+        Me.btnGenerate.Text = "Gjenero"
         Me.btnGenerate.UseVisualStyleBackColor = False
         '
         'DateTimePicker2
@@ -95,7 +95,7 @@ Partial Class frmIncome
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(102, 21)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Filter by date"
+        Me.Label2.Text = "Filtro ne baze te dates"
         '
         'DataGridView1
         '
@@ -132,25 +132,25 @@ Partial Class frmIncome
         '
         'Column7
         '
-        Me.Column7.HeaderText = "Transaction No"
+        Me.Column7.HeaderText = "Nr Transaksionit"
         Me.Column7.Name = "Column7"
         Me.Column7.Width = 150
         '
         'Column9
         '
         Me.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column9.HeaderText = "Name"
+        Me.Column9.HeaderText = "Emri"
         Me.Column9.Name = "Column9"
         '
         'Column4
         '
-        Me.Column4.HeaderText = "Cash"
+        Me.Column4.HeaderText = "Vlera"
         Me.Column4.Name = "Column4"
         Me.Column4.Width = 150
         '
         'Column6
         '
-        Me.Column6.HeaderText = "Date"
+        Me.Column6.HeaderText = "Data"
         Me.Column6.Name = "Column6"
         Me.Column6.Width = 150
         '
@@ -171,7 +171,7 @@ Partial Class frmIncome
         Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton4.Name = "ToolStripButton4"
         Me.ToolStripButton4.Size = New System.Drawing.Size(73, 28)
-        Me.ToolStripButton4.Text = "Close"
+        Me.ToolStripButton4.Text = "Mbyll"
         '
         'Label1
         '
@@ -181,7 +181,7 @@ Partial Class frmIncome
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(249, 42)
         Me.Label1.TabIndex = 32
-        Me.Label1.Text = "Total Income"
+        Me.Label1.Text = "Te ardhurat totale"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblIncome

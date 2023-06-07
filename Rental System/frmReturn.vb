@@ -93,7 +93,7 @@ Public Class frmReturn
         Try
             If IS_EMPTY(txtCash) = True Then Return
             If CDbl(lblDue.Text) > 0 And CDbl(txtCash.Text) < CDbl(lblTotal.Text) Then
-                MsgBox("Insuffecient cash.", vbExclamation)
+                MsgBox("Para te pamjaftueshme.", vbExclamation)
                 Return
             Else
                 Dim sdate As String = Now.Date.ToString("yyyy-MM-dd")
@@ -111,7 +111,7 @@ Public Class frmReturn
                 cm = New MySqlCommand("update tblmotor set status = 'Available' where plate like '" & lblPlate.Text & "'", cn)
                 cm.ExecuteNonQuery()
                 cn.Close()
-                MsgBox("Payment successfully saved.", vbInformation)
+                MsgBox("Pagesa u ruajt me sukses.", vbInformation)
 
 
                 lblCustomer.Text = ""

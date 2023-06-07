@@ -115,7 +115,7 @@ Partial Class frmReturn
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(173, 21)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Search Customer Name"
+        Me.Label1.Text = "Kerko me emer klienti"
         '
         'txtSearch
         '
@@ -134,7 +134,7 @@ Partial Class frmReturn
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(102, 34)
         Me.btnSave.TabIndex = 23
-        Me.btnSave.Text = "Return"
+        Me.btnSave.Text = "Kthe"
         Me.btnSave.UseVisualStyleBackColor = False
         '
         'txtCash
@@ -163,7 +163,7 @@ Partial Class frmReturn
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(73, 21)
         Me.Label15.TabIndex = 20
-        Me.Label15.Text = "Change :"
+        Me.Label15.Text = "Kusuri :"
         Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label7
@@ -172,7 +172,7 @@ Partial Class frmReturn
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(55, 21)
         Me.Label7.TabIndex = 18
-        Me.Label7.Text = "Cash :"
+        Me.Label7.Text = "Vlera :"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblTotal
@@ -192,7 +192,7 @@ Partial Class frmReturn
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(55, 21)
         Me.Label11.TabIndex = 16
-        Me.Label11.Text = "Total :"
+        Me.Label11.Text = "Totali :"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblRent
@@ -210,7 +210,7 @@ Partial Class frmReturn
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(119, 21)
         Me.Label13.TabIndex = 14
-        Me.Label13.Text = "Rental per day :"
+        Me.Label13.Text = "Qira ne dite :"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblDue
@@ -228,7 +228,7 @@ Partial Class frmReturn
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(129, 21)
         Me.Label5.TabIndex = 12
-        Me.Label5.Text = "No. of Days due :"
+        Me.Label5.Text = "Nr i diteve :"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblDateReturn
@@ -245,7 +245,7 @@ Partial Class frmReturn
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(124, 21)
         Me.Label8.TabIndex = 10
-        Me.Label8.Text = "Date Return :"
+        Me.Label8.Text = "Data e kthimit :"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblDateDue
@@ -262,7 +262,7 @@ Partial Class frmReturn
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(124, 21)
         Me.Label10.TabIndex = 8
-        Me.Label10.Text = "Date Due :"
+        Me.Label10.Text = "Data e fundit :"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblPlate
@@ -279,7 +279,7 @@ Partial Class frmReturn
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(124, 25)
         Me.Label6.TabIndex = 6
-        Me.Label6.Text = "Plate No :"
+        Me.Label6.Text = "Targa :"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblCustomer
@@ -296,7 +296,7 @@ Partial Class frmReturn
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(112, 29)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "Client Name :"
+        Me.Label4.Text = "Emri i klientit :"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblTransNo
@@ -313,7 +313,7 @@ Partial Class frmReturn
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(124, 31)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Transaction No :"
+        Me.Label2.Text = "Nr transaksionit :"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'DataGridView1
@@ -357,7 +357,7 @@ Partial Class frmReturn
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(65, 21)
         Me.Label3.TabIndex = 35
-        Me.Label3.Text = "[ Close ]"
+        Me.Label3.Text = "[ Mbyll ]"
         '
         'Label14
         '
@@ -367,7 +367,7 @@ Partial Class frmReturn
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(66, 21)
         Me.Label14.TabIndex = 34
-        Me.Label14.Text = "RETURN"
+        Me.Label14.Text = "KTHE"
         '
         'Panel3
         '
@@ -388,7 +388,7 @@ Partial Class frmReturn
         'Column7
         '
         Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column7.HeaderText = "Transaction No"
+        Me.Column7.HeaderText = "Nr transaksioni"
         Me.Column7.Name = "Column7"
         '
         'Column8
@@ -401,35 +401,35 @@ Partial Class frmReturn
         'Column9
         '
         Me.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column9.HeaderText = "Name"
+        Me.Column9.HeaderText = "Emri"
         Me.Column9.Name = "Column9"
         Me.Column9.Width = 80
         '
         'Column4
         '
         Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column4.HeaderText = "Plate No"
+        Me.Column4.HeaderText = "Targa"
         Me.Column4.Name = "Column4"
         Me.Column4.Width = 98
         '
         'Column2
         '
         Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column2.HeaderText = "Date Borrowed"
+        Me.Column2.HeaderText = "Data e qiramarrjes"
         Me.Column2.Name = "Column2"
         Me.Column2.Width = 143
         '
         'Column6
         '
         Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column6.HeaderText = "Date Return"
+        Me.Column6.HeaderText = "Data e kthimit"
         Me.Column6.Name = "Column6"
         Me.Column6.Width = 122
         '
         'Column5
         '
         Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column5.HeaderText = "Total Rate"
+        Me.Column5.HeaderText = "Norma totale"
         Me.Column5.Name = "Column5"
         Me.Column5.Width = 107
         '
