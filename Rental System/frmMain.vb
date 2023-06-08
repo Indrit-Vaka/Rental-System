@@ -11,7 +11,7 @@ Public Class frmMain
 
     Sub LoadAdmin()
         cn.Open()
-        cm = New MySqlCommand("SELECT fullname FROM tbladmin LIMIT 1", cn)
+        cm = New MySqlCommand("SELECT fullname FROM tbladmin ORDER BY fullname DESC LIMIT 1", cn)
         Dim fullName As String = Convert.ToString(cm.ExecuteScalar())
         cn.Close()
         Label1.Text = fullName
@@ -114,5 +114,9 @@ Public Class frmMain
     Private Sub AdminForm_FullNameUpdated(sender As Object, fullName As String)
         ' Update Label1.Text with the updated FullName value
         Label1.Text = fullName
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class
