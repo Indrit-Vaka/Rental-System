@@ -3,8 +3,11 @@
 Public Class frmMain
 
     Private adminForm As frmAdmin
+    Dim splashScreen As New splashScreen()
 
     Private Sub frmMain_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+        splashScreen.Show()
+
         Connection()
         LoadAdmin()
     End Sub
