@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frmMain
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class frmMain
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
         Me.Panel2 = New System.Windows.Forms.Panel()
@@ -82,7 +82,7 @@ Partial Class frmMain
         Me.btnLogout.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.btnLogout.Size = New System.Drawing.Size(288, 40)
         Me.btnLogout.TabIndex = 21
-        Me.btnLogout.Text = "    Logout"
+        Me.btnLogout.Text = "    Dil"
         Me.btnLogout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnLogout.UseVisualStyleBackColor = False
         '
@@ -103,7 +103,7 @@ Partial Class frmMain
         Me.btnUser.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.btnUser.Size = New System.Drawing.Size(288, 40)
         Me.btnUser.TabIndex = 20
-        Me.btnUser.Text = "    Manage User"
+        Me.btnUser.Text = "   Menaxho perdoruesin"
         Me.btnUser.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnUser.UseVisualStyleBackColor = False
         '
@@ -124,7 +124,7 @@ Partial Class frmMain
         Me.btnBrand.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.btnBrand.Size = New System.Drawing.Size(288, 40)
         Me.btnBrand.TabIndex = 19
-        Me.btnBrand.Text = "    Manage Brand"
+        Me.btnBrand.Text = "    Menaxho Markat"
         Me.btnBrand.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnBrand.UseVisualStyleBackColor = False
         '
@@ -145,7 +145,7 @@ Partial Class frmMain
         Me.btnLog.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.btnLog.Size = New System.Drawing.Size(288, 40)
         Me.btnLog.TabIndex = 18
-        Me.btnLog.Text = "    Transaction Log"
+        Me.btnLog.Text = "    Regjistri i transaksioneve"
         Me.btnLog.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnLog.UseVisualStyleBackColor = False
         '
@@ -166,7 +166,7 @@ Partial Class frmMain
         Me.btnIncome.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.btnIncome.Size = New System.Drawing.Size(288, 40)
         Me.btnIncome.TabIndex = 17
-        Me.btnIncome.Text = "    Income Generation"
+        Me.btnIncome.Text = "    Gjenerimi i te ardhurave"
         Me.btnIncome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnIncome.UseVisualStyleBackColor = False
         '
@@ -187,7 +187,7 @@ Partial Class frmMain
         Me.btnMotor.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.btnMotor.Size = New System.Drawing.Size(288, 40)
         Me.btnMotor.TabIndex = 16
-        Me.btnMotor.Text = "    Manage Motorcycle"
+        Me.btnMotor.Text = "    Menaxho automjetet"
         Me.btnMotor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnMotor.UseVisualStyleBackColor = False
         '
@@ -208,7 +208,7 @@ Partial Class frmMain
         Me.btnClient.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.btnClient.Size = New System.Drawing.Size(288, 40)
         Me.btnClient.TabIndex = 15
-        Me.btnClient.Text = "    Manage Client"
+        Me.btnClient.Text = "    Menaxho klientet"
         Me.btnClient.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnClient.UseVisualStyleBackColor = False
         '
@@ -229,7 +229,7 @@ Partial Class frmMain
         Me.btnReturn.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.btnReturn.Size = New System.Drawing.Size(288, 40)
         Me.btnReturn.TabIndex = 14
-        Me.btnReturn.Text = "    Return"
+        Me.btnReturn.Text = "    Kthimet"
         Me.btnReturn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnReturn.UseVisualStyleBackColor = False
         '
@@ -250,7 +250,7 @@ Partial Class frmMain
         Me.btnRental.Padding = New System.Windows.Forms.Padding(5, 0, 0, 0)
         Me.btnRental.Size = New System.Drawing.Size(288, 40)
         Me.btnRental.TabIndex = 13
-        Me.btnRental.Text = "    Rental"
+        Me.btnRental.Text = "    Qirate"
         Me.btnRental.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.btnRental.UseVisualStyleBackColor = False
         '
@@ -271,9 +271,9 @@ Partial Class frmMain
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(66, 119)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(163, 21)
+        Me.Label2.Size = New System.Drawing.Size(180, 21)
         Me.Label2.TabIndex = 8
-        Me.Label2.Text = "System Administrator"
+        Me.Label2.Text = "Administratori i sistemit"
         '
         'Label1
         '

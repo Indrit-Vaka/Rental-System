@@ -58,7 +58,7 @@ Private Sub InitializeComponent()
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(131, 30)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Fullname :"
+        Me.Label1.Text = "Emri i plote :"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtFullname
@@ -85,7 +85,7 @@ Private Sub InitializeComponent()
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(131, 32)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Address :"
+        Me.Label2.Text = "Adresa :"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label3
@@ -94,7 +94,7 @@ Private Sub InitializeComponent()
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(133, 28)
         Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Birthdate :"
+        Me.Label3.Text = "Datelindja :"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtContact
@@ -111,7 +111,7 @@ Private Sub InitializeComponent()
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(133, 29)
         Me.Label4.TabIndex = 7
-        Me.Label4.Text = "Contact No :"
+        Me.Label4.Text = "Nr kontaktit :"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'dtBdate
@@ -129,7 +129,7 @@ Private Sub InitializeComponent()
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(133, 28)
         Me.Label5.TabIndex = 10
-        Me.Label5.Text = "ID Type :"
+        Me.Label5.Text = "Tipi ID :"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'cboID
@@ -156,7 +156,7 @@ Private Sub InitializeComponent()
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(134, 31)
         Me.Label6.TabIndex = 12
-        Me.Label6.Text = "Identification No :"
+        Me.Label6.Text = "Nr identifikimit :"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Button3
@@ -171,7 +171,7 @@ Private Sub InitializeComponent()
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(92, 33)
         Me.Button3.TabIndex = 17
-        Me.Button3.Text = "Cancel"
+        Me.Button3.Text = "Fshi"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'btnUpdate
@@ -186,7 +186,7 @@ Private Sub InitializeComponent()
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(92, 33)
         Me.btnUpdate.TabIndex = 16
-        Me.btnUpdate.Text = "Update"
+        Me.btnUpdate.Text = "Rifresko"
         Me.btnUpdate.UseVisualStyleBackColor = False
         '
         'lblID
@@ -208,7 +208,7 @@ Private Sub InitializeComponent()
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(51, 17)
         Me.Label7.TabIndex = 43
-        Me.Label7.Text = "[ Close ]"
+        Me.Label7.Text = "[ Mbyll ]"
         '
         'Label14
         '
@@ -219,7 +219,7 @@ Private Sub InitializeComponent()
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(111, 17)
         Me.Label14.TabIndex = 42
-        Me.Label14.Text = "Edit Administrator"
+        Me.Label14.Text = "Modifiko te dhenat e Adminit"
         '
         'frmAdmin
         '

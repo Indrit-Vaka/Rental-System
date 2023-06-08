@@ -62,7 +62,7 @@ Partial Class frmCustomer
         Me.ToolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton1.Name = "ToolStripButton1"
         Me.ToolStripButton1.Size = New System.Drawing.Size(67, 28)
-        Me.ToolStripButton1.Text = "New"
+        Me.ToolStripButton1.Text = "Shto"
         '
         'ToolStripSeparator1
         '
@@ -75,7 +75,7 @@ Partial Class frmCustomer
         Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton2.Name = "ToolStripButton2"
         Me.ToolStripButton2.Size = New System.Drawing.Size(63, 28)
-        Me.ToolStripButton2.Text = "Edit"
+        Me.ToolStripButton2.Text = "Modifiko"
         '
         'ToolStripSeparator2
         '
@@ -88,7 +88,7 @@ Partial Class frmCustomer
         Me.ToolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton3.Name = "ToolStripButton3"
         Me.ToolStripButton3.Size = New System.Drawing.Size(86, 28)
-        Me.ToolStripButton3.Text = "Refresh"
+        Me.ToolStripButton3.Text = "Rifresko"
         '
         'ToolStripSeparator3
         '
@@ -99,7 +99,7 @@ Partial Class frmCustomer
         '
         Me.ToolStripLabel1.Name = "ToolStripLabel1"
         Me.ToolStripLabel1.Size = New System.Drawing.Size(114, 28)
-        Me.ToolStripLabel1.Text = "Search by name"
+        Me.ToolStripLabel1.Text = "Kerko me emer"
         '
         'txtSearch
         '
@@ -140,31 +140,31 @@ Partial Class frmCustomer
         '
         'Column2
         '
-        Me.Column2.HeaderText = "Name"
+        Me.Column2.HeaderText = "Emri"
         Me.Column2.Name = "Column2"
         Me.Column2.Width = 200
         '
         'Column3
         '
         Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column3.HeaderText = "Address"
+        Me.Column3.HeaderText = "Adresa"
         Me.Column3.Name = "Column3"
         '
         'Column4
         '
-        Me.Column4.HeaderText = "Birthdate"
+        Me.Column4.HeaderText = "Datelindja"
         Me.Column4.Name = "Column4"
         Me.Column4.Width = 120
         '
         'Column5
         '
-        Me.Column5.HeaderText = "Contact"
+        Me.Column5.HeaderText = "Nr kontakti"
         Me.Column5.Name = "Column5"
         Me.Column5.Width = 120
         '
         'Column6
         '
-        Me.Column6.HeaderText = "ID Type"
+        Me.Column6.HeaderText = "Tipi ID"
         Me.Column6.Name = "Column6"
         Me.Column6.Width = 120
         '
@@ -181,7 +181,7 @@ Partial Class frmCustomer
         Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton4.Name = "ToolStripButton4"
         Me.ToolStripButton4.Size = New System.Drawing.Size(73, 28)
-        Me.ToolStripButton4.Text = "Close"
+        Me.ToolStripButton4.Text = "Mbyll"
         '
         'frmCustomer
         '

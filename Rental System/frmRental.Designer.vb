@@ -117,7 +117,7 @@ Partial Class frmRental
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(62, 21)
         Me.Label14.TabIndex = 31
-        Me.Label14.Text = "RENTAL"
+        Me.Label14.Text = "QIRA"
         '
         'txtRemarks
         '
@@ -135,7 +135,7 @@ Partial Class frmRental
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(100, 23)
         Me.Label13.TabIndex = 29
-        Me.Label13.Text = "Remarks :"
+        Me.Label13.Text = "Verejtje :"
         Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblDay
@@ -165,7 +165,7 @@ Partial Class frmRental
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(135, 23)
         Me.Label12.TabIndex = 26
-        Me.Label12.Text = "Total Rental :"
+        Me.Label12.Text = "Qira totale :"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'DateTimePicker1
@@ -185,7 +185,7 @@ Partial Class frmRental
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(153, 23)
         Me.Label11.TabIndex = 24
-        Me.Label11.Text = "Date Return :"
+        Me.Label11.Text = "Data e Kthimit :"
         Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtRate
@@ -206,7 +206,7 @@ Partial Class frmRental
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(166, 23)
         Me.Label5.TabIndex = 20
-        Me.Label5.Text = "Rental Rate/ Day :"
+        Me.Label5.Text = "Norma e qirase / dite :"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'btnRent
@@ -222,7 +222,7 @@ Partial Class frmRental
         Me.btnRent.Name = "btnRent"
         Me.btnRent.Size = New System.Drawing.Size(369, 38)
         Me.btnRent.TabIndex = 18
-        Me.btnRent.Text = "Rent"
+        Me.btnRent.Text = "Jep me qira"
         Me.btnRent.UseVisualStyleBackColor = False
         '
         'txtDetails
@@ -242,7 +242,7 @@ Partial Class frmRental
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(137, 23)
         Me.Label6.TabIndex = 15
-        Me.Label6.Text = "Motor Details :"
+        Me.Label6.Text = "Detajet e automjetit :"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtPlate
@@ -262,7 +262,7 @@ Partial Class frmRental
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(137, 23)
         Me.Label7.TabIndex = 13
-        Me.Label7.Text = "Plate No :"
+        Me.Label7.Text = "Targa :"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtPlateNo
@@ -280,7 +280,7 @@ Partial Class frmRental
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(158, 23)
         Me.Label8.TabIndex = 11
-        Me.Label8.Text = "Search Plate No :"
+        Me.Label8.Text = "Kerko me targe :"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtContact
@@ -300,7 +300,7 @@ Partial Class frmRental
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(137, 23)
         Me.Label4.TabIndex = 9
-        Me.Label4.Text = "Contact No :"
+        Me.Label4.Text = "Nr kontakti :"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtName
@@ -320,7 +320,7 @@ Partial Class frmRental
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(136, 23)
         Me.Label3.TabIndex = 7
-        Me.Label3.Text = "Client Name :"
+        Me.Label3.Text = "Emri klientit :"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtID
@@ -348,7 +348,7 @@ Partial Class frmRental
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(140, 23)
         Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Search Client :"
+        Me.Label1.Text = "Kerko klient :"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Panel1
@@ -382,7 +382,7 @@ Partial Class frmRental
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(166, 42)
         Me.Label9.TabIndex = 25
-        Me.Label9.Text = "Total unit(s) borrowed"
+        Me.Label9.Text = "Totali i njesive te dhena me qira"
         Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'lblTotal
@@ -411,7 +411,7 @@ Partial Class frmRental
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(369, 42)
         Me.Button1.TabIndex = 22
-        Me.Button1.Text = "Pay"
+        Me.Button1.Text = "Paguaj"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'DataGridView1
@@ -458,27 +458,27 @@ Partial Class frmRental
         'Column4
         '
         Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column4.HeaderText = "Plate No"
+        Me.Column4.HeaderText = "Targa"
         Me.Column4.Name = "Column4"
         '
         'Column5
         '
         Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column5.HeaderText = "Total Rate"
+        Me.Column5.HeaderText = "Norma totale"
         Me.Column5.Name = "Column5"
         Me.Column5.Width = 112
         '
         'Column2
         '
         Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column2.HeaderText = "Date Borrowed"
+        Me.Column2.HeaderText = "Data e qiradhenies"
         Me.Column2.Name = "Column2"
         Me.Column2.Width = 151
         '
         'Column6
         '
         Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column6.HeaderText = "Date Return"
+        Me.Column6.HeaderText = "Data e kthimit"
         Me.Column6.Name = "Column6"
         Me.Column6.Width = 129
         '
@@ -512,7 +512,7 @@ Partial Class frmRental
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(65, 21)
         Me.Label2.TabIndex = 32
-        Me.Label2.Text = "[ Close ]"
+        Me.Label2.Text = "[ Mbyll ]"
         '
         'Label10
         '
@@ -521,7 +521,7 @@ Partial Class frmRental
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(154, 23)
         Me.Label10.TabIndex = 33
-        Me.Label10.Text = "Transaction No :"
+        Me.Label10.Text = "Nr transaksionit :"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblTrans
