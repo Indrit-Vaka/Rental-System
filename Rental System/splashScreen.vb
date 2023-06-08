@@ -8,13 +8,13 @@
     Protected Overrides Sub OnLoad(e As EventArgs)
         MyBase.OnLoad(e)
 
-        Opacity = 1 ' Start with 0 opacity
+        Opacity = 0.9 ' Start with 0 opacity
 
-        ' Start the fade-out timer
-        fadeOutTimer = New Timer()
-        fadeOutTimer.Interval = 50 ' Adjust the interval as needed
-        AddHandler fadeOutTimer.Tick, AddressOf FadeOutTimer_Tick
-        fadeOutTimer.Start()
+        ' Start the fade-in timer
+        fadeInTimer = New Timer()
+        fadeInTimer.Interval = 500 ' Adjust the interval as needed
+        AddHandler fadeInTimer.Tick, AddressOf FadeInTimer_Tick
+        fadeInTimer.Start()
     End Sub
 
     Private Sub FadeInTimer_Tick(sender As Object, e As EventArgs)
