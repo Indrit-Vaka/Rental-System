@@ -3,14 +3,7 @@
 Public Class frmMain
 
     Private adminForm As frmAdmin
-    Protected Overrides Sub OnLoad(e As EventArgs)
-        MyBase.OnLoad(e)
 
-        Dim splashScreen As New splashScreen()
-        splashScreen.Show()
-        Application.DoEvents()
-
-    End Sub
     Private Sub frmMain_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Connection()
         LoadAdmin()
