@@ -10,12 +10,6 @@ Public Class frmMain
         splashScreen.Show()
         Application.DoEvents()
 
-        ' Add any additional initialization code for your main form here
-
-        'System.Threading.Thread.Sleep(3000) ' Display splash screen for 3 seconds
-
-        'splashScreen.Close()
-        'splashScreen.Dispose()
     End Sub
     Private Sub frmMain_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Connection()
