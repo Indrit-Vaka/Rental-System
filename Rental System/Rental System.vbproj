@@ -218,6 +218,8 @@
     <Content Include="db\tblbrand.sql" />
     <Content Include="db\tblcustomer.sql" />
     <Content Include="db\tblmotor.sql" />
+    <None Include="resources\directions_car_FILL0_wght400_GRAD0_opsz48-modified %28Custom%29.png" />
+    <Content Include="resources\directions_car_FILL0_wght400_GRAD0_opsz48-modified.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmAdmin.resx">
@@ -259,9 +261,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
