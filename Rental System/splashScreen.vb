@@ -39,7 +39,7 @@
         Else
             Opacity -= 0.05 ' Adjust the opacity decrement as needed
         End If
-        If Opacity <= 0.5 And splashScreen.Enabled = False Then
+        If Opacity <= 0.5 Then
 
             splashScreen.Show()
         End If
