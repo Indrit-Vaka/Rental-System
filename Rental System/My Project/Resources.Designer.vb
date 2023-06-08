@@ -59,5 +59,25 @@ Namespace My.Resources
                 resourceCulture = value
             End Set
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property directions_car_FILL0_wght400_GRAD0_opsz48_modified() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("directions_car_FILL0_wght400_GRAD0_opsz48_modified", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property directions_car_FILL0_wght400_GRAD0_opsz48_modified__Custom_() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("directions_car_FILL0_wght400_GRAD0_opsz48_modified__Custom_", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
     End Module
 End Namespace

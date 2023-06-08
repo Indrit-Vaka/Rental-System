@@ -59,7 +59,7 @@ Partial Class frmCustomerEntry
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(131, 30)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Fullname :"
+        Me.Label1.Text = "Emri i plote :"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtFullname
@@ -86,7 +86,7 @@ Partial Class frmCustomerEntry
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(131, 32)
         Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Address :"
+        Me.Label2.Text = "Adresa :"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label3
@@ -95,7 +95,7 @@ Partial Class frmCustomerEntry
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(133, 28)
         Me.Label3.TabIndex = 5
-        Me.Label3.Text = "Birthdate :"
+        Me.Label3.Text = "Datelindja :"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'txtContact
@@ -112,7 +112,7 @@ Partial Class frmCustomerEntry
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(133, 29)
         Me.Label4.TabIndex = 7
-        Me.Label4.Text = "Contact No :"
+        Me.Label4.Text = "Nr kontaktit :"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'dtBdate
@@ -130,7 +130,7 @@ Partial Class frmCustomerEntry
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(133, 28)
         Me.Label5.TabIndex = 10
-        Me.Label5.Text = "ID Type :"
+        Me.Label5.Text = "Tipi ID :"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'cboID
@@ -157,7 +157,7 @@ Partial Class frmCustomerEntry
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(134, 31)
         Me.Label6.TabIndex = 12
-        Me.Label6.Text = "Identification No :"
+        Me.Label6.Text = "Nr identifikimit :"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Button3
@@ -172,7 +172,7 @@ Partial Class frmCustomerEntry
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(92, 33)
         Me.Button3.TabIndex = 17
-        Me.Button3.Text = "Cancel"
+        Me.Button3.Text = "Fshi"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'btnUpdate
@@ -187,7 +187,7 @@ Partial Class frmCustomerEntry
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(92, 33)
         Me.btnUpdate.TabIndex = 16
-        Me.btnUpdate.Text = "Update"
+        Me.btnUpdate.Text = "Rifresko"
         Me.btnUpdate.UseVisualStyleBackColor = False
         '
         'btnSave
@@ -202,7 +202,7 @@ Partial Class frmCustomerEntry
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(92, 33)
         Me.btnSave.TabIndex = 15
-        Me.btnSave.Text = "Save"
+        Me.btnSave.Text = "Ruaj"
         Me.btnSave.UseVisualStyleBackColor = False
         '
         'lblID
@@ -224,7 +224,7 @@ Partial Class frmCustomerEntry
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(65, 21)
         Me.Label7.TabIndex = 43
-        Me.Label7.Text = "[ Close ]"
+        Me.Label7.Text = "[ Mbyll ]"
         '
         'Label14
         '
@@ -235,7 +235,7 @@ Partial Class frmCustomerEntry
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(137, 21)
         Me.Label14.TabIndex = 42
-        Me.Label14.Text = "CUSTOMER ENTRY"
+        Me.Label14.Text = "Hyrjet e reja"
         '
         'frmCustomerEntry
         '

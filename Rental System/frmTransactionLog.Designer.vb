@@ -79,36 +79,36 @@ Partial Class frmTransactionLog
         '
         'Column7
         '
-        Me.Column7.HeaderText = "Transaction No"
+        Me.Column7.HeaderText = "Nr Transaksionit"
         Me.Column7.Name = "Column7"
         Me.Column7.Width = 150
         '
         'Column9
         '
         Me.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column9.HeaderText = "Name"
+        Me.Column9.HeaderText = "Emri"
         Me.Column9.Name = "Column9"
         '
         'Column1
         '
-        Me.Column1.HeaderText = "Plate No"
+        Me.Column1.HeaderText = "Targa"
         Me.Column1.Name = "Column1"
         '
         'Column4
         '
-        Me.Column4.HeaderText = "Rental"
+        Me.Column4.HeaderText = "Qiradhenia"
         Me.Column4.Name = "Column4"
         Me.Column4.Width = 150
         '
         'Column6
         '
-        Me.Column6.HeaderText = "Status"
+        Me.Column6.HeaderText = "Statusi"
         Me.Column6.Name = "Column6"
         Me.Column6.Width = 150
         '
         'Column2
         '
-        Me.Column2.HeaderText = "Date"
+        Me.Column2.HeaderText = "Data"
         Me.Column2.Name = "Column2"
         '
         'Label2
@@ -118,7 +118,7 @@ Partial Class frmTransactionLog
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(102, 21)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Filter by date"
+        Me.Label2.Text = "Filtro me date"
         '
         'DateTimePicker1
         '
@@ -147,7 +147,7 @@ Partial Class frmTransactionLog
         Me.btnGenerate.Name = "btnGenerate"
         Me.btnGenerate.Size = New System.Drawing.Size(154, 31)
         Me.btnGenerate.TabIndex = 28
-        Me.btnGenerate.Text = "Generate"
+        Me.btnGenerate.Text = "Gjenero"
         Me.btnGenerate.UseVisualStyleBackColor = False
         '
         'Panel1
@@ -180,7 +180,7 @@ Partial Class frmTransactionLog
         Me.ToolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripButton4.Name = "ToolStripButton4"
         Me.ToolStripButton4.Size = New System.Drawing.Size(73, 28)
-        Me.ToolStripButton4.Text = "Close"
+        Me.ToolStripButton4.Text = "Mbyll"
         '
         'frmTransactionLog
         '
