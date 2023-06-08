@@ -171,7 +171,7 @@ Public Class frmRental
     Private Sub DataGridView1_CellContentClick(sender As System.Object, e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
         Dim colName As String = DataGridView1.Columns(e.ColumnIndex).Name
         If colName = "Column3" Then
-            If MsgBox("Do you want to remove this item from the list", vbYesNo + vbQuestion) = vbYes Then
+            If MsgBox("Dëshironi ta hiqni këtë artikull nga lista?", vbYesNo + vbQuestion) = vbYes Then
                 cn.Open()
                 cm = New MySqlCommand("delete from tblrent where id like '" & _id & "'", cn)
                 cm.ExecuteNonQuery()
@@ -183,7 +183,7 @@ Public Class frmRental
                 cm.ExecuteNonQuery()
                 cn.Close()
 
-                MsgBox("Record successfully removed from the list.", vbInformation)
+                MsgBox("Regjistri u hoq me sukses nga lista.", vbInformation)
                 LoadCart()
 
                 AutoSuggestModule1()

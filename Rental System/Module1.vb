@@ -16,7 +16,7 @@ Module Module1
         On Error Resume Next
         If sText.Text = "" Then
             IS_EMPTY = True
-            MsgBox("Kujdes: Nje usha e kerkuar mungon.", vbExclamation)
+            MsgBox("Kujdes: Nje fushe e kerkuar mungon.", vbExclamation)
             sText.BackColor = Color.LemonChiffon
             sText.SetFocus()
         Else
