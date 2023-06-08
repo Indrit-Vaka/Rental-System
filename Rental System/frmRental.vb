@@ -118,7 +118,7 @@ Public Class frmRental
                 cm = New MySqlCommand("insert into tblrent (transno, cid, plateno, dborrowed, dreturned, rental, noofdays, rentalpay, remarks) values ('" & lblTrans.Text & "','" & txtID.Text & "','" & txtPlate.Text & "','" & sdate1 & "','" & sdate2 & "','" & txtRate.Text & "','" & lblDay.Text & "','" & total & "','" & txtRemarks.Text & "')", cn)
                 cm.ExecuteNonQuery()
 
-                MsgBox("Zeri eshte shtuar me sukses.", vbInformation)
+                MsgBox("Regjistrimi është shtuar me sukses.", vbInformation)
                 cn.Close()
                 LoadCart()
 
